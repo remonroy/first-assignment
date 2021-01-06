@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.menubar ul {
+    list-style: none;
+    float: right;
+    margin-top: 24px;
+}
+
+.menubar ul li {
+    float: left;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: cursive;
+    border-bottom: 2px solid tomato;
+}
+header {
+    height: 68px;
+}
+
+.section-writing {
+    width: 453px;
+    float: left;
+    padding: 5%;
+}
+section.first-section {
+    background: #fafafa;
+    height: 429px;
+}
+.section-writing h1 {
+    font-size: 31px;
+    margin-bottom: 19px;
+    color: #363958;
+}
+
+.section-writing h2 {
+    color: orange;
+    font-size: 49px;
+    margin-bottom: 23px;
+}
+
+.section-writing p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-align: justify;
+    width: 338px;
+}
+
+.section-writing button {
+    width: 139px;
+    padding: 17px;
+    background: #29304b;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.section-writing img {
+    width: 68%;
+    transform: translateX(113px);
+}
+.about {
+    width: 500px;
+    float: left;
+}
+section.second-section {
+    height: 585px;
+}
+.about img {
+    width: 100%;
+}
+.leftariea {
+    margin-top: 75px;
+    margin-left: 111px;
+}
+
+.leftariea h1 {
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.leftariea p {font-weight: 700;color: #6a6363;margin-bottom: 18px;line-height: 23px;font-size: 14px;}
+.icon {
+    width: 131px;
+    background: #f66460;
+    padding: 17px;
+    margin-top: 26px;
+    border-radius: 8px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+.icon button {
+    border: none;
+    background: no-repeat;
+    color: white;
+    font-size: 15px;
+}
+.header-section span {
+    color: red;
+}
+.header-section h1 {
+    font-size: 48px;
+    width: 389px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 56px 0px;
+}
+.box {
+    width: 289px;
+    padding: 15px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 21px -7px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 48px;
+    transition: 0.3s;
+}
+
+.box img {
+    width: 100%;
+}
+.box h1 {
+    font-size: 16px;
+    margin: 13px 0px;
+    transition: 0.3s;
+}
+
+.box p {
+    font-size: 14px;
+    color: #7b7676;
+    transition: 0.3s;
+}
+
+section.thrd-section {
+    background: #b0b0b0;
+    height: 509px;
+}
+.box:hover {
+    transition: 0.3s;
+    margin-top: -15px;
+    background: #8f8888;
+}
+
+.box:hover p {color: #c7c2c2;}
+section.four-section {
+    height: 551px;
+    background: #EDF1ED;
+}
+
+.hedding {
+    width: 590px;
+    text-align: center;
+    margin-top: 126px;
+}
+
+.hedding h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 43px;
+}
+
+.hedding {}
+
+.hedding h1 span {
+    color: orange;
+}
+.eduction h2 {
+    width: 173px;
+    float: left;
+    font-size: 15px;
+    transform: translate(96px);
+}
+
+.eduction {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.eduction p {
+    font-size: 9px;
+}
+.eduction p {
+    width: 314px;
+    float: right;
+    margin-top: 4px;
+    font-size: 11px;
+    transform: translate(-25px);
+}
+
+.button button {
+    border: none;
+    background: #F44336;
+    padding: 13px;
+    border-radius: 7px;
+    color: white;
+    font-family: cursive;
+}
+
+.social ul {
+    list-style: none;
+    transform: translateY(91px);
+}
+
+.social ul li {
+    float: left;
+    margin: 4px;
+    border-radius: 9px;
+}
+
+.social ul li a {
+    margin: 8px;
+    background: #343b34;
+    padding: 5px;
+    border-radius: 13px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: white;
+}
+.boxsizing {
+    border: 1px solid #e2e2e2;
+    height: 400px;
+    transform: translateY(78px);
+    background: #e2e2e2;
+    border-radius: 7px;
+}
+
+.social ul li a:hover {
+    background: #9a9494;
+    color: #343b34;
+}
+.hedding img {
+    width: 72%;
+    float: right;
+    transform: translate(537px);
+    margin-top: -381px;
+}
+.images img {
+    width: 500px;
+}
+section.sectionfive {
+    /* background: #343b34; */
+    height: 237px;
+    border-radius: 23px;
+}
+
+.writing img {
+    width: 581px;
+}
+
+.writing {
+    width: 588px;
+    text-align: center;
+    margin: auto;
+}
+
+.writing h1 {
+    width: 300px;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 37px;
+    color: #ecebeb;
+}
+
+.writing button {
+    float: right;
+    width: 122px;
+    transform: translate(-98px, 11px);
+    background: red;
+    padding: 16px 16px 11px 11px;
+    border: none;
+    color: wheat;
+    border-radius: 3px;
+}
+.bootom {transform: translateY(91px);}
+footer.foooterarea {
+    background: #576057;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    color: white;
+}
+
+di.footer {
+    font-size: 10px;
+}
